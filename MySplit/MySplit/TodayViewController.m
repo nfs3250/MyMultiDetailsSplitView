@@ -45,20 +45,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark -
-#pragma mark SubstitutableDetailViewController
-
-// -------------------------------------------------------------------------------
-//	setNavigationPaneBarButtonItem:
-//  Custom implementation for the navigationPaneBarButtonItem setter.
-//  In addition to updating the _navigationPaneBarButtonItem ivar, it
-//  reconfigures the toolbar to either show or hide the
-//  navigationPaneBarButtonItem.
-// -------------------------------------------------------------------------------
-- (void)setNavigationPaneBarButtonItem:(UIBarButtonItem *)navigationPaneBarButtonItem
-{
-    
-}
-
-
 @end

@@ -1,27 +1,25 @@
 //
-//  SettingsViewController.m
+//  NewsViewController.m
 //  MySplit
 //
 //  Created by Akshay on 11/24/13.
 //  Copyright (c) 2013 Akshay. All rights reserved.
 //
 
-#import "SettingsViewController.h"
+#import "NewsViewController.h"
 
-@interface SettingsViewController ()
+@interface NewsViewController ()
 
 @end
 
-@implementation SettingsViewController
-
-@synthesize navigationPaneBarButtonItem;
+@implementation NewsViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.title = @"Settings";
+        self.title = @"News";
     }
     return self;
 }
@@ -29,10 +27,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    
+	// Do any additional setup after loading the view.
     UILabel *lblToday = [[UILabel alloc]initWithFrame:CGRectMake(300, 200, 250, 50)];
-    lblToday.text = @"Settings VC";
+    lblToday.text = @"News VC";
     lblToday.font = [UIFont systemFontOfSize:30];
     [self.view addSubview:lblToday];
 }

@@ -26,6 +26,9 @@
 		BA1FB0F3184145AC003AEB9C /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1FB0F1184145AC003AEB9C /* TodayViewController.xib */; };
 		BA1FB0F718414687003AEB9C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1FB0F518414687003AEB9C /* SettingsViewController.m */; };
 		BA1FB0F818414687003AEB9C /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1FB0F618414687003AEB9C /* SettingsViewController.xib */; };
+		BA1FB0FB1841589B003AEB9C /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1FB0FA1841589B003AEB9C /* BaseViewController.m */; };
+		BA1FB0FE184159CB003AEB9C /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1FB0FD184159CB003AEB9C /* NewsViewController.m */; };
+		BA1FB100184159DC003AEB9C /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1FB0FF184159DC003AEB9C /* NewsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,11 @@
 		BA1FB0F418414687003AEB9C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		BA1FB0F518414687003AEB9C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		BA1FB0F618414687003AEB9C /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		BA1FB0F91841589B003AEB9C /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		BA1FB0FA1841589B003AEB9C /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		BA1FB0FC184159CB003AEB9C /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		BA1FB0FD184159CB003AEB9C /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		BA1FB0FF184159DC003AEB9C /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,8 @@
 			children = (
 				BA1FB0E7184144F0003AEB9C /* DetailsViewManager.h */,
 				BA1FB0E8184144F0003AEB9C /* DetailsViewManager.m */,
+				BA1FB0F91841589B003AEB9C /* BaseViewController.h */,
+				BA1FB0FA1841589B003AEB9C /* BaseViewController.m */,
 				BA1FB0BE1841448B003AEB9C /* MySplit */,
 				BA1FB0D71841448C003AEB9C /* MySplitTests */,
 				BA1FB0B71841448B003AEB9C /* Frameworks */,
@@ -135,6 +145,9 @@
 				BA1FB0EF184145AC003AEB9C /* TodayViewController.h */,
 				BA1FB0F0184145AC003AEB9C /* TodayViewController.m */,
 				BA1FB0F1184145AC003AEB9C /* TodayViewController.xib */,
+				BA1FB0FC184159CB003AEB9C /* NewsViewController.h */,
+				BA1FB0FD184159CB003AEB9C /* NewsViewController.m */,
+				BA1FB0FF184159DC003AEB9C /* NewsViewController.xib */,
 				BA1FB0F418414687003AEB9C /* SettingsViewController.h */,
 				BA1FB0F518414687003AEB9C /* SettingsViewController.m */,
 				BA1FB0F618414687003AEB9C /* SettingsViewController.xib */,
@@ -253,6 +266,7 @@
 				BA1FB0EE1841459C003AEB9C /* MenuViewController.xib in Resources */,
 				BA1FB0CB1841448C003AEB9C /* Images.xcassets in Resources */,
 				BA1FB0F818414687003AEB9C /* SettingsViewController.xib in Resources */,
+				BA1FB100184159DC003AEB9C /* NewsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +288,10 @@
 				BA1FB0C91841448B003AEB9C /* AppDelegate.m in Sources */,
 				BA1FB0E9184144F0003AEB9C /* DetailsViewManager.m in Sources */,
 				BA1FB0C51841448B003AEB9C /* main.m in Sources */,
+				BA1FB0FE184159CB003AEB9C /* NewsViewController.m in Sources */,
 				BA1FB0F718414687003AEB9C /* SettingsViewController.m in Sources */,
 				BA1FB0ED1841459C003AEB9C /* MenuViewController.m in Sources */,
+				BA1FB0FB1841589B003AEB9C /* BaseViewController.m in Sources */,
 				BA1FB0F2184145AC003AEB9C /* TodayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

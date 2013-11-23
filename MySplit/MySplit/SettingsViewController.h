@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DetailsViewManager.h"
 
-@interface SettingsViewController : UIViewController<SubstitutableDetailViewController>
-
-@property (nonatomic, strong) UIBarButtonItem *navigationPaneBarButtonItem;
+@interface SettingsViewController : BaseViewController
 
 @end

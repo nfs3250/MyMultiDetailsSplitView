@@ -1,13 +1,13 @@
 //
-//  TodayViewController.h
+//  NewsViewController.h
 //  MySplit
 //
 //  Created by Akshay on 11/24/13.
 //  Copyright (c) 2013 Akshay. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface TodayViewController : BaseViewController
+@interface NewsViewController : BaseViewController
 
 @end

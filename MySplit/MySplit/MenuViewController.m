@@ -8,6 +8,7 @@
 
 #import "MenuViewController.h"
 #import "TodayViewController.h"
+#import "NewsViewController.h"
 #import "SettingsViewController.h"
 #import "DetailsViewManager.h"
 
@@ -43,7 +44,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 2;
+    return 3;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -57,6 +58,9 @@
     // Set appropriate labels for the cells.
     if (indexPath.row == 0) {
         cell.textLabel.text = @"Today";
+    }
+    else if (indexPath.row == 1){
+        cell.textLabel.text = @"News";
     }
     else {
         cell.textLabel.text = @"Settings";
@@ -75,10 +79,14 @@
     UIViewController <SubstitutableDetailViewController> *detailViewController = nil;
     TodayViewController *todayViewController = [[TodayViewController alloc] init];
     SettingsViewController *settingsViewController = [[SettingsViewController alloc]init];
-    
+    NewsViewController *newsViewController = [[NewsViewController alloc]init];
     if (row == 0)
     {
         detailViewController = todayViewController;
+    }
+    else if (row == 1)
+    {
+        detailViewController = newsViewController;
     }
     else {
         detailViewController = settingsViewController;
